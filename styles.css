@@ -1,0 +1,64 @@
+
+.block {
+  text-align: center;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.centered {
+   box-shadow: 30px 30px 15px 1px rgba(0, 0, 0, 0.68), inset -3px -8px 20px 1px #89847e;
+  /*it floats
+  */
+  display: inline-block;
+  vertical-align: middle;
+  width: 290px;
+  height: 460px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  border
+}
+.one {
+  text-align: center;
+  margin-top: 10px;
+}
+.normal-button {
+  width: 50px;
+  height: 50px;
+  margin: 6px;
+  border-radius: 10px;
+  font-size: 35px;
+
+}
+.long-button {
+  width: 50px;
+  height: 112px;
+  margin: 6px;
+  border-radius: 10px;
+}
+.wide-button {
+  height: 50px;
+  width: 112px;
+  margin: 6px;
+  border-radius: 10px;
+}
+.display {
+  background: rgb(214, 214, 194);
+  height: 70px;
+  width: 240px;
+  margin-right: 25px;
+  margin-left: 25px;
+  border-radius: 10px;
+  text-align: right;
+  font-size: 20px;
+}
+.entry {
+  font-size: 35px;
+    height:45px;
+  margin-right: 5px;
+}
+.equation {
+  margin-right: 5px;
+}
+button:active {
+  transform: translate(0px, 2px);
+
+}
